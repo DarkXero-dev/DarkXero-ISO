@@ -1,0 +1,9 @@
+*.log
+db.json
+push.sh
+build.sh
+.DS_Store
+Thumbs.db
+gitinfo.sh
+gitclean.sh
+archiso.readme
