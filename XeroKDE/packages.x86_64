@@ -190,14 +190,9 @@ xorg-xwayland
 
 ### Essentials
 
-xmlto
 ckbcomp
-kpmcore
-yaml-cpp
 kirigami
-boost-libs
 polkit-gnome
-gtk-update-icon-cache
 
 #######################################################
 ###                  Hardware                       ###
@@ -222,7 +217,6 @@ qemu-hw-display-qxl
 
 ### Input
 
-orca
 piper
 onboard
 fprintd
@@ -255,6 +249,7 @@ gst-plugins-base
 gst-plugins-ugly
 gst-plugins-good
 gst-plugin-pipewire
+gst-plugins-base-libs
 
 ## Pipewire Audio
 
@@ -292,6 +287,7 @@ dhcpcd
 openssh
 openvpn
 dnsmasq
+repoctl
 dhclient
 openldap
 nss-mdns
@@ -304,7 +300,6 @@ pptpclient
 cloud-init
 openconnect
 traceroute
-b43-fwcutter
 modemmanager
 networkmanager
 nm-cloud-setup
@@ -328,6 +323,8 @@ virtualbox-guest-utils
 ### Applications
 
 jq
+lact
+hugo
 figlet
 ostree
 lolcat
@@ -343,21 +340,98 @@ bat-extras
 
 ### Fonts
 
+noto-fonts
+ttf-dejavu
+ttf-carlito
+ttf-caladea
 ttf-fira-code
 otf-libertinus
 tex-gyre-fonts
 ttf-hack-nerd
+ttf-liberation
 xero-fonts-git
+ttf-linux-libertine-g
 ttf-ubuntu-font-family
 awesome-terminal-fonts
 ttf-jetbrains-mono-nerd
 adobe-source-sans-pro-fonts
+adobe-source-code-pro-fonts
+adobe-source-serif-pro-fonts
+
+### Gaming
+
+cups
+gtk3
+steam
+vkd3d
+libva
+openal
+gnutls
+libpng
+dosbox
+sqlite
+giflib
+mpg123
+rustup
+libldap
+ncurses
+libxslt
+ocl-icd
+alsa-lib
+libpulse
+mangohud
+gamescope
+libgcrypt
+v4l-utils
+wine-meta
+lib32-gtk3
+wqy-zenhei
+mangoverlay
+lib32-vkd3d
+libgpg-error
+lib32-sqlite
+lib32-libva
+libxinerama
+alsa-plugins
+lib32-libpng
+lib32-giflib
+lib32-gnutls
+lib32-mpg123
+lib32-openal
+libjpeg-turbo
+libxcomposite
+lib32-libldap
+lib32-ncurses
+lib32-ocl-icd
+lib32-libxslt
+lib32-libpulse
+lib32-alsa-lib
+lib32-libgcrypt
+lib32-v4l-utils
+lib32-fontconfig
+opencl-icd-loader
+lib32-libxinerama
+lib32-libgpg-error
+lib32-alsa-plugins
+lib32-libjpeg-turbo
+lib32-libxcomposite
+freedownloadmanager
+steam-native-runtime
+lib32-opencl-icd-loader
 
 ### Kate Plugins
 
 bash-language-server
 typescript-language-server
 vscode-json-languageserver
+
+### Office
+
+hunspell
+hunspell-en_us
+libreoffice-fresh
+libreoffice-extension-texmaths
+libreoffice-extension-writer2latex
 
 ### Theme Tools
 
@@ -497,6 +571,7 @@ drkonqi
 kwrited
 kgamma
 kscreen
+kdenlive
 sddm-kcm
 #kwin-x11
 kmenuedit

@@ -4,4 +4,6 @@
 
 <h1 align="center">🔥 XeroLinux KDE "Private" 🔥</h1>
 
-<h3 align="center"><a href="https://github.com/XeroLinuxDev/xero-build/blob/main/Changelog.md#flagship-kde-edition" target="_blank"><strong>.:: Changelog ::.</strong></a></h3>
+<p align="center">
+    <img src="https://i.imgur.com/qvFuDYO.png" alt="logo">
+</p>
